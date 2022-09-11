@@ -7,7 +7,7 @@ const recipeCloseBtn = document.getElementById('recipe-close-btn');
 searchBtn.addEventListener('click', getMealList);
 mealList.addEventListener('click', getMealRecipe);
 recipeCloseBtn.addEventListener('click', () => {
-    mealDetailsContent.parentElement.classList.remove('showRecipe');
+mealDetailsContent.parentElement.classList.remove('showRecipe');
 });
 
 
@@ -74,4 +74,5 @@ function mealRecipeModal(meal){
     `;
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
+    
 }

@@ -126,6 +126,15 @@ body{
     background: var(--tenne-tawny-dark);
 }
 
+.notFound{
+    color: red;
+    text-align: center;
+    font-size: 22px;
+   /* border: 2px solid black; */
+   
+
+}
+
 /* meal details */
 
 .meal-details{
