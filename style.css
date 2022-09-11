@@ -94,11 +94,7 @@ body{
 }
 .meal-item{
     border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    overflow: hidden;
+   overflow: hidden;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
     margin: 2rem 0;
 }
@@ -123,53 +119,36 @@ body{
     width: 175px;
     margin: 1rem auto;
     border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
-    transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
+   transition: all 0.4s linear;
+   
 }
 .recipe-btn:hover{
     background: var(--tenne-tawny-dark);
 }
 
 /* meal details */
+
 .meal-details{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    color: #fff;
+     color: #fff;
     background: var(--tenne-tawny);
     border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    width: 90%;
+     width: 90%;
     height: 90%;
     overflow-y: scroll;
     display: none;
     padding: 2rem 0;
 }
 .meal-details::-webkit-scrollbar{
-    width: 10px;
+    width: 20px;
 }
 .meal-details::-webkit-scrollbar-thumb{
     background: #f0f0f0;
     border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+   
 }
 
 
@@ -204,10 +183,7 @@ body{
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
-    -webkit-border-radius: 0.3rem;
-    -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
-    -o-border-radius: 0.3rem;
+   
 }
 
 .recipe-instruct{
@@ -217,10 +193,7 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+   
     margin: 0 auto;
     display: block;
 }
@@ -232,10 +205,7 @@ body{
     font-size: 1.2rem;
     font-weight: 700;
     transition: all 0.4s linear;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    -o-transition: all 0.4s linear;
+ 
 }
 .recipe-link a:hover{
     opacity: 0.8;
@@ -243,6 +213,7 @@ body{
 
 
 /* Media Queries */
+
 @media screen and (min-width: 600px){
     .meal-search-box{
         width: 540px;
